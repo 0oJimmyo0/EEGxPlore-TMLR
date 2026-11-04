@@ -1,0 +1,300 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "v3 contract complete",
+      "status": "PASS",
+      "detail": "complete"
+    },
+    {
+      "check": "v3 seeds",
+      "status": "PASS",
+      "detail": "[42, 1024, 3407]"
+    },
+    {
+      "check": "v3 source artifact coverage",
+      "status": "PASS",
+      "detail": "18 artifacts"
+    },
+    {
+      "check": "test metrics not used for selection",
+      "status": "PASS",
+      "detail": "False"
+    },
+    {
+      "check": "primary estimand unchanged",
+      "status": "PASS",
+      "detail": "True"
+    },
+    {
+      "check": "six seed cells",
+      "status": "PASS",
+      "detail": "6 rows"
+    },
+    {
+      "check": "supporting context contract complete",
+      "status": "PASS",
+      "detail": "complete"
+    },
+    {
+      "check": "supporting context scope",
+      "status": "PASS",
+      "detail": "['FACED', 'ISRUC']"
+    },
+    {
+      "check": "supporting context aggregate coverage",
+      "status": "PASS",
+      "detail": "11 three-seed rows"
+    },
+    {
+      "check": "full evidence audit contract",
+      "status": "PASS",
+      "detail": "{'status': 'complete', 'audit_date': '2026-08-25', 'seeds': [42, 1024, 3407], 'artifact_directories_audited': 769, 'registry_artifacts': 485, 'registry_complete_artifacts': 485, 'supplemental_complete_artifacts': 8, 'log_files_audited': 2515, 'registry_condition_rows': 89, 'complete_three_seed_registry_condition_rows': 88, 'supplemental_condition_rows': 13, 'primary_rq2_cells': ['CBraMod-FACED', 'CBraMod-ISRUC', 'CBraMod-TUEV', 'LaBraM-TUEV'], 'test_metrics_used_for_selection': False, 'notes': ['A completed checkpoint/test contract is required for complete status.', 'Supporting legacy records are retained but not promoted to matched RQ2 evidence.', 'Macro-F1 values are complemented only from the existing manuscript-v2/v3 audited tables when the raw registry aggregate is missing a scalar; the source column records this explicitly.']}"
+    },
+    {
+      "check": "full evidence ten-cell coverage",
+      "status": "PASS",
+      "detail": "10 coverage rows"
+    },
+    {
+      "check": "full evidence primary cells",
+      "status": "PASS",
+      "detail": "four matched cells"
+    },
+    {
+      "check": "CBraMod seed 42 source paths",
+      "status": "PASS",
+      "detail": "native, branch-local, and axis-agnostic directories exist"
+    },
+    {
+      "check": "CBraMod seed 42 branch parameter count",
+      "status": "PASS",
+      "detail": "59696"
+    },
+    {
+      "check": "CBraMod seed 42 completed artifact contract",
+      "status": "PASS",
+      "detail": "completed summary, validation-selected test metrics, no attention mixing, realized params"
+    },
+    {
+      "check": "CBraMod seed 1024 source paths",
+      "status": "PASS",
+      "detail": "native, branch-local, and axis-agnostic directories exist"
+    },
+    {
+      "check": "CBraMod seed 1024 branch parameter count",
+      "status": "PASS",
+      "detail": "59696"
+    },
+    {
+      "check": "CBraMod seed 1024 completed artifact contract",
+      "status": "PASS",
+      "detail": "completed summary, validation-selected test metrics, no attention mixing, realized params"
+    },
+    {
+      "check": "CBraMod seed 3407 source paths",
+      "status": "PASS",
+      "detail": "native, branch-local, and axis-agnostic directories exist"
+    },
+    {
+      "check": "CBraMod seed 3407 branch parameter count",
+      "status": "PASS",
+      "detail": "59696"
+    },
+    {
+      "check": "CBraMod seed 3407 completed artifact contract",
+      "status": "PASS",
+      "detail": "completed summary, validation-selected test metrics, no attention mixing, realized params"
+    },
+    {
+      "check": "LaBraM seed 42 source paths",
+      "status": "PASS",
+      "detail": "native, branch-local, and axis-agnostic directories exist"
+    },
+    {
+      "check": "LaBraM seed 42 branch parameter count",
+      "status": "PASS",
+      "detail": "86214"
+    },
+    {
+      "check": "LaBraM seed 42 completed artifact contract",
+      "status": "PASS",
+      "detail": "MLP config, realized params, validation-selected final test, checkpoints"
+    },
+    {
+      "check": "LaBraM seed 1024 source paths",
+      "status": "PASS",
+      "detail": "native, branch-local, and axis-agnostic directories exist"
+    },
+    {
+      "check": "LaBraM seed 1024 branch parameter count",
+      "status": "PASS",
+      "detail": "86214"
+    },
+    {
+      "check": "LaBraM seed 1024 completed artifact contract",
+      "status": "PASS",
+      "detail": "MLP config, realized params, validation-selected final test, checkpoints"
+    },
+    {
+      "check": "LaBraM seed 3407 source paths",
+      "status": "PASS",
+      "detail": "native, branch-local, and axis-agnostic directories exist"
+    },
+    {
+      "check": "LaBraM seed 3407 branch parameter count",
+      "status": "PASS",
+      "detail": "86214"
+    },
+    {
+      "check": "LaBraM seed 3407 completed artifact contract",
+      "status": "PASS",
+      "detail": "MLP config, realized params, validation-selected final test, checkpoints"
+    },
+    {
+      "check": "CBraMod aggregate native_ba",
+      "status": "PASS",
+      "detail": "mean=0.454793701, sd=0.022266852"
+    },
+    {
+      "check": "CBraMod aggregate branch_local_mlp_ba",
+      "status": "PASS",
+      "detail": "mean=0.463663063, sd=0.016804595"
+    },
+    {
+      "check": "CBraMod aggregate native_minus_branch_local_mlp_ba",
+      "status": "PASS",
+      "detail": "mean=-0.008869362, sd=0.031534753"
+    },
+    {
+      "check": "CBraMod aggregate native_macro_f1",
+      "status": "PASS",
+      "detail": "mean=0.471962541, sd=0.021564315"
+    },
+    {
+      "check": "CBraMod aggregate branch_local_mlp_macro_f1",
+      "status": "PASS",
+      "detail": "mean=0.478109862, sd=0.006317520"
+    },
+    {
+      "check": "CBraMod aggregate native_minus_branch_local_mlp_macro_f1",
+      "status": "PASS",
+      "detail": "mean=-0.006147321, sd=0.023487619"
+    },
+    {
+      "check": "LaBraM aggregate native_ba",
+      "status": "PASS",
+      "detail": "mean=0.391609119, sd=0.018243723"
+    },
+    {
+      "check": "LaBraM aggregate branch_local_mlp_ba",
+      "status": "PASS",
+      "detail": "mean=0.431076131, sd=0.003331353"
+    },
+    {
+      "check": "LaBraM aggregate native_minus_branch_local_mlp_ba",
+      "status": "PASS",
+      "detail": "mean=-0.039467012, sd=0.020806910"
+    },
+    {
+      "check": "LaBraM aggregate native_macro_f1",
+      "status": "PASS",
+      "detail": "mean=0.367625191, sd=0.025962776"
+    },
+    {
+      "check": "LaBraM aggregate branch_local_mlp_macro_f1",
+      "status": "PASS",
+      "detail": "mean=0.433639915, sd=0.003036337"
+    },
+    {
+      "check": "LaBraM aggregate native_minus_branch_local_mlp_macro_f1",
+      "status": "PASS",
+      "detail": "mean=-0.066014724, sd=0.028791147"
+    },
+    {
+      "check": "v2 primary contract present",
+      "status": "PASS",
+      "detail": "manuscript_final_v2"
+    },
+    {
+      "check": "v2 primary RQ2 scope unchanged",
+      "status": "PASS",
+      "detail": "rows=12, exclusions=[]"
+    },
+    {
+      "check": "v2 three-seed contract",
+      "status": "PASS",
+      "detail": "[42, 1024, 3407]"
+    },
+    {
+      "check": "primary table values",
+      "status": "PASS",
+      "detail": "primary RQ1/RQ2 effects are present"
+    },
+    {
+      "check": "primary three-seed convention",
+      "status": "PASS",
+      "detail": "primary results use the prespecified three-seed convention"
+    },
+    {
+      "check": "absolute primary context",
+      "status": "PASS",
+      "detail": "salient LaBraM--TUEV absolute scores are visible in the main text"
+    },
+    {
+      "check": "capacity qualification",
+      "status": "PASS",
+      "detail": "matched-capacity criterion and realized counts are explicit"
+    },
+    {
+      "check": "operator audit integrated",
+      "status": "PASS",
+      "detail": "secondary native-branch MLP evidence and interpretation are integrated"
+    },
+    {
+      "check": "LaBraM preprocessing qualification",
+      "status": "PASS",
+      "detail": "paired validity and preprocessing scope are distinguished"
+    },
+    {
+      "check": "ten-cell scope sentence",
+      "status": "PASS",
+      "detail": "availability and primary inclusion are separated in Section 4"
+    },
+    {
+      "check": "ten-cell appendix table",
+      "status": "PASS",
+      "detail": "coverage table is present in Appendix B"
+    },
+    {
+      "check": "compute scope qualification",
+      "status": "PASS",
+      "detail": "parameter matching is not presented as compute matching"
+    },
+    {
+      "check": "within-pair initialization matching",
+      "status": "PASS",
+      "detail": "within-pair initialization and cross-backbone scope are explicit"
+    },
+    {
+      "check": "reproducibility release scope",
+      "status": "PASS",
+      "detail": "release contents and raw-data constraints are stated"
+    },
+    {
+      "check": "related-work expansion",
+      "status": "PASS",
+      "detail": "reviewer-requested benchmark and structural-adaptation context is included"
+    },
+    {
+      "check": "LaBraM FACED/ISRUC context integrated",
+      "status": "PASS",
+      "detail": "supporting table and scope qualification are present"
+    },
+    {
+      "check": "PDF exists",
+      "status": "PASS",
+      "detail": "2960030 bytes"
+    }
+  ]
+}

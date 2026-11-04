@@ -1,0 +1,20 @@
+{
+  "train": {
+    "storage": "lmdb",
+    "count": 6720,
+    "ordered_keys": true,
+    "filename_list_sha256": "925e5cce26e08df35a0b6e314ef567a503114bb9dd5624903e00ba312436d496"
+  },
+  "val": {
+    "storage": "lmdb",
+    "count": 1680,
+    "ordered_keys": true,
+    "filename_list_sha256": "3975433794d7d4914f8df61ea8c437dc0bfb19c2a973c242977e958160679bfb"
+  },
+  "test": {
+    "storage": "lmdb",
+    "count": 1932,
+    "ordered_keys": true,
+    "filename_list_sha256": "d56c2320f98ce4d3d38d1474d5cd37efec5da4ef16bb030897288b66e97bac1b"
+  }
+}

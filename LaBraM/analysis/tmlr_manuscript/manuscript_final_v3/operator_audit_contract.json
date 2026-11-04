@@ -1,0 +1,38 @@
+{
+  "analysis": "targeted_branch_local_mlp_operator_audit",
+  "status": "complete",
+  "dataset": "TUEV",
+  "seeds": [
+    42,
+    1024,
+    3407
+  ],
+  "primary_selection_metric": "validation_cohen_kappa",
+  "test_metrics_used_for_selection": false,
+  "primary_estimand_unchanged": true,
+  "interpretation": "secondary robustness audit; native attention versus branch-local no-mixing MLP",
+  "source_artifacts": [
+    "CBraMod/results/tuev/tuev_cbramod_frozen_axis_decomposed_mlp_s1024_r147_lr1e-4_h2e-4_a5e-5_b8_e20",
+    "CBraMod/results/tuev/tuev_cbramod_frozen_axis_decomposed_mlp_s3407_r147_lr1e-4_h2e-4_a5e-5_b8_e20",
+    "CBraMod/results/tuev/tuev_cbramod_frozen_axis_decomposed_mlp_s42_r147_lr1e-4_h2e-4_a5e-5_b8_e20",
+    "CBraMod/results/tuev/tuev_cbramod_frozen_axisblind_s1024_r148_lr1e-4_b8_e20",
+    "CBraMod/results/tuev/tuev_cbramod_frozen_axisblind_s3407_r148_lr1e-4_b8_e20",
+    "CBraMod/results/tuev/tuev_cbramod_frozen_axisblind_s42_r148_lr1e-4_b8_e20",
+    "CBraMod/results/tuev/tuev_cbramod_frozen_channel_patch_s1024_r64_lr1e-4_b8_e20",
+    "CBraMod/results/tuev/tuev_cbramod_frozen_channel_patch_s3407_r64_lr1e-4_b8_e20",
+    "CBraMod/results/tuev/tuev_cbramod_frozen_channel_patch_s42_r64_lr1e-4_b8_e20",
+    "LaBraM/checkpoints/tuev_labram_axis_blind_b213_s1024_b64_lr5e-4_e15_scale100",
+    "LaBraM/checkpoints/tuev_labram_axis_blind_b213_s3407_b64_lr5e-4_e15_scale100",
+    "LaBraM/checkpoints/tuev_labram_axis_blind_b213_s42_b64_lr5e-4_e15_scale100",
+    "LaBraM/checkpoints/tuev_labram_frozen_axis_decomposed_mlp_s1024_b106_lr5e-4_b64_e15_scale100",
+    "LaBraM/checkpoints/tuev_labram_frozen_axis_decomposed_mlp_s3407_b106_lr5e-4_b64_e15_scale100",
+    "LaBraM/checkpoints/tuev_labram_frozen_axis_decomposed_mlp_s42_b106_lr5e-4_b64_e15_scale100",
+    "LaBraM/checkpoints/tuev_labram_frozen_channel_patch_lr5e-4_s1024_b64_e15_scale100",
+    "LaBraM/checkpoints/tuev_labram_frozen_channel_patch_lr5e-4_s3407_b64_e15_scale100",
+    "LaBraM/checkpoints/tuev_labram_frozen_channel_patch_lr5e-4_s42_b64_e15_scale100"
+  ],
+  "outputs": [
+    "operator_audit_seed_results.csv",
+    "operator_audit_summary.csv"
+  ]
+}

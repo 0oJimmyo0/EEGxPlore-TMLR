@@ -1,0 +1,59 @@
+{
+  "version": "manuscript_final_v2",
+  "created_utc": "2026-08-22T03:50:31.622264+00:00",
+  "source_manifest": "LaBraM/analysis/tmlr_manuscript/manuscript_inclusion_manifest.csv",
+  "source_manifest_sha256": "0b2a9dea7ad9cd4464191cf73be3032f83266f0d8056f7daedeac139cc580615",
+  "selected_rows": 156,
+  "artifact_status_counts": {
+    "SUPPORTING": 12,
+    "VERIFIED": 144
+  },
+  "pair_status_counts": {
+    "primary:VALID": 12
+  },
+  "primary_rq2_pair_rows": 12,
+  "primary_rq2_complete_seed_cells": [
+    {
+      "backbone": "CBraMod",
+      "dataset": "faced",
+      "axis": "channel_patch"
+    },
+    {
+      "backbone": "CBraMod",
+      "dataset": "isruc",
+      "axis": "channel_patch"
+    },
+    {
+      "backbone": "CBraMod",
+      "dataset": "tuev",
+      "axis": "channel_patch"
+    },
+    {
+      "backbone": "LaBraM",
+      "dataset": "TUEV",
+      "axis": "channel_patch"
+    }
+  ],
+  "primary_rq2_exclusions": [],
+  "rq1_seed_effect_rows": 42,
+  "rq2_seed_effect_rows": 24,
+  "rq2_all_seed_effect_rows": 24,
+  "rq3_seed_effect_rows": 66,
+  "primary_metrics": [
+    "balanced_accuracy",
+    "macro_f1"
+  ],
+  "secondary_metrics": [
+    "cohen_kappa",
+    "weighted_f1"
+  ],
+  "selection_metric": "validation_kappa",
+  "seeds": [
+    42,
+    1024,
+    3407
+  ],
+  "scope_rule": "primary RQ2 contains only complete-seed valid cells from the candidate FACED/ISRUC/TUEV plus LaBraM TUEV scope; SEED-V and PhysioNet-MI remain boundary/supporting",
+  "parameter_matching_basis": "adapter_module_parameters; shared classifier excluded from the capacity criterion",
+  "score_selection": "none; rows come from the deterministic compact manifest"
+}

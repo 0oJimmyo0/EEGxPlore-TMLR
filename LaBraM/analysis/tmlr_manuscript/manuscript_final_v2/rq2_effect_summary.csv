@@ -1,0 +1,9 @@
+backbone,dataset,axis,metric,n,seeds,effect_mean,effect_sd,positive_seed_count,effect_min,effect_max
+CBraMod,faced,channel_patch,balanced_accuracy,3,"42,1024,3407",0.00304169,0.00454342,2,-0.00107354,0.00791734
+CBraMod,faced,channel_patch,macro_f1,3,"42,1024,3407",0.00325100,0.00405039,3,0.00005005,0.00780463
+CBraMod,isruc,channel_patch,balanced_accuracy,3,"42,1024,3407",0.00455955,0.01774611,2,-0.01570645,0.01731771
+CBraMod,isruc,channel_patch,macro_f1,3,"42,1024,3407",0.00535644,0.02155591,2,-0.01925434,0.02088507
+CBraMod,tuev,channel_patch,balanced_accuracy,3,"42,1024,3407",-0.00320920,0.01937513,1,-0.02109775,0.01737103
+CBraMod,tuev,channel_patch,macro_f1,3,"42,1024,3407",-0.00435281,0.01712239,1,-0.01929088,0.01433303
+LaBraM,TUEV,channel_patch,balanced_accuracy,3,"42,1024,3407",-0.03913247,0.01744945,0,-0.04930485,-0.01898390
+LaBraM,TUEV,channel_patch,macro_f1,3,"42,1024,3407",-0.06528355,0.02501742,0,-0.08738595,-0.03812384

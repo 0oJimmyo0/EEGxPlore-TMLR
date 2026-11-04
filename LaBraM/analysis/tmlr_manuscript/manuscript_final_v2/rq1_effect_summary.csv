@@ -1,0 +1,15 @@
+backbone,dataset,axis,metric,n,seeds,effect_mean,effect_sd,positive_seed_count,effect_min,effect_max
+CBraMod,faced,channel_patch,balanced_accuracy,3,"42,1024,3407",0.01328502,0.00609208,3,0.00845411,0.02012882
+CBraMod,faced,channel_patch,macro_f1,3,"42,1024,3407",0.01181234,0.00611382,3,0.00826475,0.01887194
+CBraMod,isruc,channel_patch,balanced_accuracy,3,"42,1024,3407",-0.00431588,0.00495157,0,-0.00979476,-0.00016064
+CBraMod,isruc,channel_patch,macro_f1,3,"42,1024,3407",-0.00317444,0.00602055,2,-0.01011883,0.00057818
+CBraMod,physionet_mi,channel,balanced_accuracy,3,"42,1024,3407",0.00144519,0.01024336,1,-0.00723108,0.01274523
+CBraMod,physionet_mi,channel,macro_f1,3,"42,1024,3407",0.00103390,0.00867515,1,-0.00654110,0.01049791
+CBraMod,seedv,channel,balanced_accuracy,3,"42,1024,3407",-0.00685729,0.00357482,0,-0.01067657,-0.00359148
+CBraMod,seedv,channel,macro_f1,3,"42,1024,3407",-0.00740189,0.00420076,0,-0.01192121,-0.00361639
+CBraMod,tuev,channel_patch,balanced_accuracy,3,"42,1024,3407",-0.01082035,0.05105580,1,-0.05605020,0.04454195
+CBraMod,tuev,channel_patch,macro_f1,3,"42,1024,3407",-0.00933271,0.04057114,1,-0.03641915,0.03731279
+LaBraM,PhysioNet-MI,channel_patch,balanced_accuracy,3,"42,1024,3407",0.01387576,0.00572714,3,0.00929817,0.02029788
+LaBraM,PhysioNet-MI,channel_patch,macro_f1,3,"42,1024,3407",0.00537437,0.00847650,2,-0.00310229,0.01385071
+LaBraM,TUEV,channel_patch,balanced_accuracy,3,"42,1024,3407",0.02582275,0.01824372,3,0.01485390,0.04688269
+LaBraM,TUEV,channel_patch,macro_f1,3,"42,1024,3407",0.01929536,0.02596278,2,-0.00350329,0.04755387

@@ -1,0 +1,18 @@
+# Downstream training and data preparation; Python 3.11.
+# Public package versions corresponding to the installed experiment environments.
+torch==2.12.1
+torchvision==0.27.1
+numpy==2.4.2
+scipy==1.17.0
+scikit-learn==1.8.0
+mne==1.12.1
+timm==0.4.12
+einops==0.8.2
+lmdb==1.7.5
+h5py==3.16.0
+pandas==3.0.0
+matplotlib==3.10.8
+Pillow==12.1.0
+tensorboardX==2.6.5
+tqdm==4.68.3
+PyYAML==6.0.3

@@ -1,0 +1,29 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded data, checkpoints, and new experiment outputs
+/data/
+/prepared_data/
+/weights/
+/outputs/
+/logs/
+/summaries/
+*.pt
+*.pth
+*.ckpt
+*.lmdb
+*.edf
+*.cnt
+
+# Generated analysis files
+/paper/figures/*.pdf
+/paper/figures/*.png
+/paper/tables/

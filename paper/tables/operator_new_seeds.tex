@@ -1,0 +1,19 @@
+\begin{table}[!ht]
+\centering
+\caption{New branch-preserving MLP controls on LaBraM FACED/ISRUC. B denotes Branch, A denotes native attention, and T denotes the ordinary token-wise MLP. Each row uses its validation-$\kappa$-selected checkpoint.}
+\label{tab:operator-new-seeds}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Dataset & Seed & B BA & A $-$ B BA & B $-$ T BA & B F1 & A $-$ B F1 & B $-$ T F1 \\
+\midrule
+FACED & 42 & $.1990$ & $-.0475$ & $+.0009$ & $.1978$ & $-.0626$ & $+.0013$ \\
+FACED & 1024 & $.1966$ & $-.0258$ & $+.0019$ & $.1913$ & $-.0469$ & $-.0022$ \\
+FACED & 3407 & $.2033$ & $-.0419$ & $+.0109$ & $.1949$ & $-.0526$ & $+.0031$ \\
+ISRUC & 42 & $.7089$ & $+.0367$ & $+.0004$ & $.6942$ & $+.0381$ & $-.00003$ \\
+ISRUC & 1024 & $.7133$ & $+.0318$ & $-.0032$ & $.7016$ & $+.0306$ & $-.0028$ \\
+ISRUC & 3407 & $.7187$ & $+.0266$ & $+.0095$ & $.7050$ & $+.0270$ & $+.0107$ \\
+\bottomrule
+\end{tabular}
+\end{table}

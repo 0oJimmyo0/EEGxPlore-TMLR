@@ -1,0 +1,20 @@
+{
+  "analysis": "supporting_labram_cross_backbone_context",
+  "status": "complete",
+  "backbone": "LaBraM",
+  "datasets": [
+    "FACED",
+    "ISRUC"
+  ],
+  "seeds": [
+    42,
+    1024,
+    3407
+  ],
+  "primary_estimand_unchanged": true,
+  "interpretation": "supporting context only; heterogeneous historical and trainability regimes",
+  "outputs": [
+    "cross_backbone_context_seed_results.csv",
+    "cross_backbone_context_summary.csv"
+  ]
+}

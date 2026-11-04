@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "contract complete",
+      "status": "PASS",
+      "detail": "complete"
+    },
+    {
+      "check": "six primary cells",
+      "status": "PASS",
+      "detail": "['CBraMod--FACED', 'CBraMod--ISRUC', 'CBraMod--TUEV', 'LaBraM--FACED', 'LaBraM--ISRUC', 'LaBraM--TUEV']"
+    },
+    {
+      "check": "all primary source paths",
+      "status": "PASS",
+      "detail": "all 54 paths resolve relative to the LaBraM repository"
+    },
+    {
+      "check": "fresh artifact count",
+      "status": "PASS",
+      "detail": "contract=18, rows=18"
+    },
+    {
+      "check": "fresh seed coverage",
+      "status": "PASS",
+      "detail": "two datasets, three methods, three seeds"
+    },
+    {
+      "check": "fresh artifact contracts",
+      "status": "PASS",
+      "detail": "all source directories exist"
+    },
+    {
+      "check": "fresh held-out selection",
+      "status": "PASS",
+      "detail": "validation Cohen's kappa"
+    },
+    {
+      "check": "fresh finite metrics",
+      "status": "PASS",
+      "detail": "all metrics finite"
+    },
+    {
+      "check": "primary seed rows",
+      "status": "PASS",
+      "detail": "RQ1=36, RQ2=36 metric rows"
+    },
+    {
+      "check": "primary summaries",
+      "status": "PASS",
+      "detail": "RQ1=12, RQ2=12"
+    },
+    {
+      "check": "effect_native_minus_probe recomputation",
+      "status": "PASS",
+      "detail": "summary means and sample standard deviations match seed rows"
+    },
+    {
+      "check": "effect_native_minus_axisblind recomputation",
+      "status": "PASS",
+      "detail": "summary means and sample standard deviations match seed rows"
+    },
+    {
+      "check": "six-cell protocol",
+      "status": "PASS",
+      "detail": "Section 4 includes fresh LaBraM closure cells"
+    },
+    {
+      "check": "six-cell results",
+      "status": "PASS",
+      "detail": "Table 2 contains six primary rows only"
+    },
+    {
+      "check": "updated per-seed appendix",
+      "status": "PASS",
+      "detail": "six fresh LaBraM seed rows"
+    },
+    {
+      "check": "updated coverage appendix",
+      "status": "PASS",
+      "detail": "newly audited matched coverage is explicit"
+    },
+    {
+      "check": "updated absolute context",
+      "status": "PASS",
+      "detail": "audited absolute scores are reported"
+    },
+    {
+      "check": "no stale primary scope",
+      "status": "PASS",
+      "detail": "no four-cell primary claim remains"
+    },
+    {
+      "check": "figure data",
+      "status": "PASS",
+      "detail": "Main Results include seed-level RQ2 effects and the joint RQ1/RQ2 view; diagnostics retain validation trajectories"
+    },
+    {
+      "check": "six-cell trajectories",
+      "status": "PASS",
+      "detail": "Validation-trajectory figure describes six primary comparisons"
+    },
+    {
+      "check": "PDF exists",
+      "status": "PASS",
+      "detail": "paper/build/main.pdf"
+    },
+    {
+      "check": "extended operator grid",
+      "status": "PASS",
+      "detail": "three LaBraM datasets plus CBraMod TUEV, three seeds each"
+    },
+    {
+      "check": "primary matrix unchanged",
+      "status": "PASS",
+      "detail": "primary data byte-identical to v5"
+    },
+    {
+      "check": "six new controls qualified",
+      "status": "PASS",
+      "detail": "full budgets, validation selection, frozen tensors, reconstructed test scores"
+    },
+    {
+      "check": "operator results in main paper",
+      "status": "PASS",
+      "detail": "three-way comparison in main diagnostics"
+    },
+    {
+      "check": "new seed appendix",
+      "status": "PASS",
+      "detail": "six new paired seed rows"
+    },
+    {
+      "check": "historical initialization recorded",
+      "status": "PASS",
+      "detail": "TUEV initialization convention differs from new FACED/ISRUC controls"
+    }
+  ]
+}

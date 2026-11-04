@@ -1,0 +1,7 @@
+cell,condition,seeds_same_epoch,mean_abs_epoch_shift,median_abs_epoch_shift,seed_epoch_pairs
+CBraMod--FACED,Native,2/3,4.00,0.00,42:37->37; 1024:44->32; 3407:18->18
+CBraMod--FACED,Axis-blind,2/3,1.67,0.00,42:27->27; 1024:32->27; 3407:34->34
+CBraMod--TUEV,Native,0/3,4.00,3.00,42:13->5; 1024:3->2; 3407:5->8
+CBraMod--TUEV,Axis-blind,0/3,6.00,7.00,42:13->6; 1024:3->5; 3407:5->14
+LaBraM--TUEV,Native,0/3,5.33,6.00,42:6->15; 1024:4->10; 3407:12->11
+LaBraM--TUEV,Axis-blind,0/3,3.00,3.00,42:6->9; 1024:6->9; 3407:6->9

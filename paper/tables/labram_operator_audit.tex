@@ -1,0 +1,21 @@
+\begin{table}[!ht]
+\centering
+\caption{LaBraM operator audit at validation-$\kappa$-selected checkpoints (mean $\pm$ SD, three paired seeds). Attn: native-axis attention; Branch: branch-preserving MLP; Token: token-wise MLP. BA: balanced accuracy; F1: macro-F1. $\dagger$ TUEV Branch uses seed-specific adapter initialization; all other conditions use adapter seed 12345. ISRUC uses a newly initialized frozen sequence encoder (Table~\ref{tab:primary-configs}).}
+\label{tab:labram-operator-audit}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}llccccc@{}}
+\toprule
+Dataset & Metric & Attn & Branch & Token & Attn $-$ Branch & Branch $-$ Token \\
+\midrule
+FACED & BA & $.1613\pm.0097$ & $.1996\pm.0034$ & $.1951\pm.0028$ & $-.0384\pm.0113$ & $+.0046\pm.0055$ \\
+FACED & F1 & $.1406\pm.0049$ & $.1947\pm.0032$ & $.1940\pm.0024$ & $-.0540\pm.0080$ & $+.0007\pm.0027$ \\
+ISRUC & BA & $.7453\pm.0003$ & $.7136\pm.0049$ & $.7114\pm.0044$ & $+.0317\pm.0051$ & $+.0023\pm.0065$ \\
+ISRUC & F1 & $.7322\pm.0002$ & $.7003\pm.0055$ & $.6977\pm.0059$ & $+.0319\pm.0057$ & $+.0026\pm.0072$ \\
+TUEV$^{\dagger}$ & BA & $.3916\pm.0182$ & $.4311\pm.0033$ & $.4307\pm.0010$ & $-.0395\pm.0208$ & $+.0003\pm.0043$ \\
+TUEV$^{\dagger}$ & F1 & $.3676\pm.0260$ & $.4336\pm.0030$ & $.4329\pm.0010$ & $-.0660\pm.0288$ & $+.0007\pm.0039$ \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

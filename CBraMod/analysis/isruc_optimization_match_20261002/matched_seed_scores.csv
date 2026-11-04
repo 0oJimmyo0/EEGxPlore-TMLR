@@ -1,0 +1,10 @@
+seed,condition,run_id,selected_epoch,balanced_accuracy,macro_f1
+42,native,isruc_cbramod_frozen_channel_patch_s42_lr2e-4_b8_e20,9,0.754101962218913,0.7471509189075352
+42,tokenwise,isruc_cbramod_axisblind_s42_lr2e-4_b8_e20,9,0.7546861099347553,0.750640002005781
+42,probe,isruc_cbramod_frozen_probe_s42_lr2e-4_b8_e20,16,0.7542625984571867,0.7465727382575784
+1024,native,isruc_cbramod_frozen_channel_patch_s1024_r64_lr2e-4_b8_e20,15,0.7445908053030473,0.7407857501808257
+1024,tokenwise,isruc_cbramod_matched_axisblind_s1024_r148_alphaWD0p05_e20_20261002,14,0.7499901963457436,0.746375186654516
+1024,probe,isruc_cbramod_frozen_probe_s1024_lr2e-4_b8_e20,20,0.7543855637013217,0.7509045801707795
+3407,native,isruc_cbramod_frozen_channel_patch_s3407_r64_lr2e-4_b8_e20,16,0.7569716381819159,0.757476801168339
+3407,tokenwise,isruc_cbramod_matched_axisblind_s3407_r148_alphaWD0p05_e20_20261002,17,0.7519770815786998,0.7482377275634341
+3407,probe,isruc_cbramod_frozen_probe_s3407_lr2e-4_b8_e20,10,0.7599638783089742,0.7574594748575196

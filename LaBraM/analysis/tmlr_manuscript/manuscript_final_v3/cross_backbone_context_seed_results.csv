@@ -1,0 +1,34 @@
+backbone,dataset,condition,condition_label,regime,seed,balanced_accuracy,macro_f1,qualification,source_artifact
+LaBraM,FACED,frozen_probe,Frozen probe,frozen,42,0.143988191,0.109248175,legacy frozen packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_dense_seed42
+LaBraM,FACED,frozen_probe,Frozen probe,frozen,1024,0.137949544,0.107598357,legacy frozen packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_dense_seed1024
+LaBraM,FACED,frozen_probe,Frozen probe,frozen,3407,0.138083736,0.076243933,legacy frozen packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_dense_seed3407
+LaBraM,FACED,native_patch,Native patch,frozen,42,0.170289855,0.153339274,legacy full-width packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_patch_seed42
+LaBraM,FACED,native_patch,Native patch,frozen,1024,0.159017713,0.153771969,legacy full-width packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_patch_seed1024
+LaBraM,FACED,native_patch,Native patch,frozen,3407,0.172839506,0.154118523,legacy full-width packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_patch_seed3407
+LaBraM,FACED,generic,Generic bottleneck,frozen,42,0.175254965,0.166861073,legacy frozen packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_generic_seed42
+LaBraM,FACED,generic,Generic bottleneck,frozen,1024,0.179012346,0.168845897,legacy frozen packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_generic_seed1024
+LaBraM,FACED,generic,Generic bottleneck,frozen,3407,0.180220075,0.172230456,legacy frozen packet,LaBraM/checkpoints/faced_reviewer_r2_frozen_generic_seed3407
+LaBraM,FACED,lora,LoRA,LoRA,42,0.318438003,0.315667507,three-seed context,LaBraM/checkpoints/faced_reviewer_r2_lora_qkv_r8_seed42
+LaBraM,FACED,lora,LoRA,LoRA,1024,0.272812668,0.270097321,three-seed context,LaBraM/checkpoints/faced_reviewer_r2_lora_qkv_r8_seed1024
+LaBraM,FACED,lora,LoRA,LoRA,3407,0.255770263,0.253734231,three-seed context,LaBraM/checkpoints/faced_reviewer_r2_lora_qkv_r8_seed3407
+LaBraM,FACED,upper2,Upper-2,upper-layer,42,0.295893720,0.295200377,three-seed context,LaBraM/checkpoints/faced_reviewer_r2_upper2_seed42
+LaBraM,FACED,upper2,Upper-2,upper-layer,1024,0.296698873,0.296217943,three-seed context,LaBraM/checkpoints/faced_reviewer_r2_upper2_seed1024
+LaBraM,FACED,upper2,Upper-2,upper-layer,3407,0.298040794,0.298369670,three-seed context,LaBraM/checkpoints/faced_reviewer_r2_upper2_seed3407
+LaBraM,ISRUC,frozen_probe,Frozen probe,frozen,42,0.609792969,0.586796972,legacy frozen packet,LaBraM/checkpoints/isruc_dense_bls0_lr2e-4_s42_b16_e30
+LaBraM,ISRUC,frozen_probe,Frozen probe,frozen,1024,0.608313175,0.586598955,legacy frozen packet,LaBraM/checkpoints/isruc_dense_bls0_s1024_lr2e-4_b16_e30
+LaBraM,ISRUC,frozen_probe,Frozen probe,frozen,3407,0.605115827,0.579251364,legacy frozen packet,LaBraM/checkpoints/isruc_dense_bls0_s3407_lr2e-4_b16_e30
+LaBraM,ISRUC,native_patch,Native patch,frozen,42,0.721960939,0.709223758,legacy full-width packet,LaBraM/checkpoints/isruc_patch_util_bls0_lr2e-4_s42_b16_e30
+LaBraM,ISRUC,native_patch,Native patch,frozen,1024,0.728435095,0.715303928,legacy full-width packet,LaBraM/checkpoints/isruc_patch_util_bls0_s1024_lr2e-4_b16_e30
+LaBraM,ISRUC,native_patch,Native patch,frozen,3407,0.725038878,0.711945588,legacy full-width packet,LaBraM/checkpoints/isruc_patch_util_bls0_s3407_lr2e-4_b16_e30
+LaBraM,ISRUC,axis_blind_b400,Axis-blind $b=400$,frozen,42,0.723438596,0.711024978,strict patch-control,LaBraM/checkpoints/isruc_labram_axis_blind_b400_s42_b16_lr2e-4_e30_retry_seqfix
+LaBraM,ISRUC,axis_blind_b400,Axis-blind $b=400$,frozen,1024,0.721045411,0.709350721,strict patch-control,LaBraM/checkpoints/isruc_labram_axis_blind_b400_s1024_b16_lr2e-4_e30_retry_seqfix
+LaBraM,ISRUC,axis_blind_b400,Axis-blind $b=400$,frozen,3407,0.725411224,0.713315180,strict patch-control,LaBraM/checkpoints/isruc_labram_axis_blind_b400_s3407_b16_lr2e-4_e30_retry_seqfix
+LaBraM,ISRUC,native_channel_patch_rank32,"Native C+P, rank 32",trainable backbone,42,0.792062594,0.783562642,three-seed context,LaBraM/checkpoints/isruc_labram_lowrank_a05_channel_patch_s42_b16_r32_lr2e-4_e30_test
+LaBraM,ISRUC,native_channel_patch_rank32,"Native C+P, rank 32",trainable backbone,1024,0.797194003,0.793617854,three-seed context,LaBraM/checkpoints/isruc_labram_lowrank_a05_channel_patch_s1024_b16_r32_lr2e-4_e30_test
+LaBraM,ISRUC,native_channel_patch_rank32,"Native C+P, rank 32",trainable backbone,3407,0.785936011,0.778321366,three-seed context,LaBraM/checkpoints/isruc_labram_lowrank_a05_channel_patch_s3407_b16_r32_lr2e-4_e30_test
+LaBraM,ISRUC,lora,LoRA,LoRA,42,0.688840881,0.671213143,three-seed context,LaBraM/checkpoints/isruc_labram_lora_qkv_r8_s42_b16_lr2e-4_e30_test_retry1
+LaBraM,ISRUC,lora,LoRA,LoRA,1024,0.690434904,0.676097057,three-seed context,LaBraM/checkpoints/isruc_labram_lora_qkv_r8_s1024_b16_lr2e-4_e30_test_retry1
+LaBraM,ISRUC,lora,LoRA,LoRA,3407,0.695965822,0.684059858,three-seed context,LaBraM/checkpoints/isruc_labram_lora_qkv_r8_s3407_b16_lr2e-4_e30_test_retry1
+LaBraM,ISRUC,upper2,Upper-2,upper-layer,42,0.789917625,0.781545829,three-seed context,LaBraM/checkpoints/isruc_labram_upper2_s42_b16_lr2e-4_e30_test
+LaBraM,ISRUC,upper2,Upper-2,upper-layer,1024,0.799840950,0.789163617,three-seed context,LaBraM/checkpoints/isruc_labram_upper2_s1024_b16_lr2e-4_e30_test
+LaBraM,ISRUC,upper2,Upper-2,upper-layer,3407,0.791861893,0.783363765,three-seed context,LaBraM/checkpoints/isruc_labram_upper2_s3407_b16_lr2e-4_e30_test

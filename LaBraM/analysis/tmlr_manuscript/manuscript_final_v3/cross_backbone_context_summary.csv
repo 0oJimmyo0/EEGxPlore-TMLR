@@ -1,0 +1,12 @@
+backbone,dataset,condition,condition_label,regime,seeds,balanced_accuracy_mean,balanced_accuracy_sd,macro_f1_mean,macro_f1_sd,qualification
+LaBraM,FACED,frozen_probe,Frozen probe,frozen,3,0.140007157,0.003448330,0.097696822,0.018597051,legacy frozen packet
+LaBraM,FACED,native_patch,Native patch,frozen,3,0.167382358,0.007355314,0.153743255,0.000390417,legacy full-width packet
+LaBraM,FACED,generic,Generic bottleneck,frozen,3,0.178162462,0.002589364,0.169312475,0.002714929,legacy frozen packet
+LaBraM,FACED,lora,LoRA,LoRA,3,0.282340311,0.032402059,0.279833019,0.032093933,three-seed context
+LaBraM,FACED,upper2,Upper-2,upper-layer,3,0.296877796,0.001084662,0.296595997,0.001618115,three-seed context
+LaBraM,ISRUC,frozen_probe,Frozen probe,frozen,3,0.607740657,0.002390554,0.584215764,0.004300436,legacy frozen packet
+LaBraM,ISRUC,native_patch,Native patch,frozen,3,0.725144971,0.003238382,0.712157758,0.003045633,legacy full-width packet
+LaBraM,ISRUC,axis_blind_b400,Axis-blind $b=400$,frozen,3,0.723298410,0.002186280,0.711230293,0.001990189,strict patch-control
+LaBraM,ISRUC,native_channel_patch_rank32,"Native C+P, rank 32",trainable backbone,3,0.791730869,0.005636322,0.785167287,0.007773467,three-seed context
+LaBraM,ISRUC,lora,LoRA,LoRA,3,0.691747203,0.003739357,0.677123353,0.006484557,three-seed context
+LaBraM,ISRUC,upper2,Upper-2,upper-layer,3,0.793873489,0.005258610,0.784691071,0.003978565,three-seed context

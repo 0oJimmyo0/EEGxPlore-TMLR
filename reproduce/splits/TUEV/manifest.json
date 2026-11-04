@@ -1,0 +1,17 @@
+{
+  "train": {
+    "directory": "processed_train",
+    "count": 68712,
+    "filename_list_sha256": "bf7bc1a773b191251b46b01273a53d95801f946fa9c13884f3ee49e0f7eed7db"
+  },
+  "val": {
+    "directory": "processed_eval",
+    "count": 15220,
+    "filename_list_sha256": "6f81cb363d3de9ae51c91c46fa09741d2c0fcca78cc119004637933b9aacfc73"
+  },
+  "test": {
+    "directory": "processed_test",
+    "count": 29421,
+    "filename_list_sha256": "c720f05c4aded25268516292656f4a54abe1e1eb1ea2a5ad3f45c67cb045bf92"
+  }
+}
